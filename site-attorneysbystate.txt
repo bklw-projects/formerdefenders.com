@@ -1,0 +1,159 @@
+# =============================================================================
+# site-attorneysbystate.txt  —  recommended attorneys, by state
+# =============================================================================
+#
+# HOW THIS FILE WORKS
+# -------------------
+#   * Each attorney is ONE block of "KEY: VALUE" lines.
+#   * Separate blocks with a line containing only three dashes:  ---
+#   * Lines beginning with "#" are comments and are ignored.
+#   * Blank lines are ignored.
+#   * Key names are not case-sensitive. Order of keys does not matter.
+#
+# FIELDS
+# -------------------
+#   STATE     (required)  Full state name, e.g. "Texas". Used when a visitor
+#                         clicks that state on the map.
+#   NAME      (required)  Attorney or firm name shown in the pop-out.
+#   CITY      (optional)  City for this office. Two attorneys sharing the same
+#                         STATE + CITY are grouped under one map STAR.
+#   LAT, LNG  (optional)  Decimal coordinates. BOTH are required to place a
+#                         STAR on the map. Look these up by searching
+#                         "<city, state> latitude longitude". Negative LNG for
+#                         the United States (west of the prime meridian).
+#   FIRM      (optional)  Firm / practice name.
+#   PHONE     (optional)  Becomes a tap-to-call link.
+#   EMAIL     (optional)  Becomes a tap-to-email link.
+#   WEBSITE   (optional)  Full URL beginning with https://
+#   ADDRESS   (optional)  Street address shown in the pop-out.
+#   NOTE      (optional)  One short line of context (experience, focus, etc.).
+#
+# A state with at least one entry is highlighted on the map. A state with no
+# entries still opens, but shows a "no listings yet" message.
+#
+# The sample data below is fictional — replace it with real listings.
+# =============================================================================
+
+STATE: Texas
+CITY: Dallas
+LAT: 32.7767
+LNG: -96.7970
+NAME: Jordan A. Reyes
+FIRM: Reyes Criminal Defense
+PHONE: (214) 555-0142
+EMAIL: jreyes@example.com
+WEBSITE: https://example.com
+ADDRESS: 1200 Main St, Suite 400, Dallas, TX 75202
+NOTE: Former Dallas County public defender. 18 years of trial experience.
+---
+
+STATE: Texas
+CITY: Houston
+LAT: 29.7604
+LNG: -95.3698
+NAME: Priya N. Shah
+FIRM: Shah Defense Group
+PHONE: (713) 555-0188
+EMAIL: pshah@example.com
+WEBSITE: https://example.com
+ADDRESS: 800 Bagby St, Suite 220, Houston, TX 77002
+NOTE: Federal and state criminal defense. Former assistant public defender.
+---
+
+STATE: Texas
+CITY: Houston
+LAT: 29.7604
+LNG: -95.3698
+NAME: Marcus T. Bell
+FIRM: Bell & Associates
+PHONE: (713) 555-0199
+EMAIL: mbell@example.com
+ADDRESS: 919 Milam St, Suite 1500, Houston, TX 77002
+NOTE: DWI and felony defense. Board-certified in criminal law.
+---
+
+STATE: California
+CITY: Los Angeles
+LAT: 34.0522
+LNG: -118.2437
+NAME: Dana K. Olsen
+FIRM: Olsen Trial Law
+PHONE: (213) 555-0170
+EMAIL: dolsen@example.com
+WEBSITE: https://example.com
+ADDRESS: 350 S Grand Ave, Suite 2900, Los Angeles, CA 90071
+NOTE: Former L.A. County alternate public defender. Homicide defense.
+---
+
+STATE: California
+CITY: San Francisco
+LAT: 37.7749
+LNG: -122.4194
+NAME: Elena V. Marsh
+FIRM: Marsh Defense
+PHONE: (415) 555-0123
+EMAIL: emarsh@example.com
+ADDRESS: 100 Pine St, Suite 1250, San Francisco, CA 94111
+NOTE: White-collar and appellate practice. 12 years as a public defender.
+---
+
+STATE: New York
+CITY: New York
+LAT: 40.7128
+LNG: -74.0060
+NAME: Samuel O. Greene
+FIRM: Greene Criminal Defense
+PHONE: (212) 555-0155
+EMAIL: sgreene@example.com
+WEBSITE: https://example.com
+ADDRESS: 26 Broadway, 8th Floor, New York, NY 10004
+NOTE: Former Legal Aid Society trial attorney. State and federal courts.
+---
+
+STATE: Florida
+CITY: Miami
+LAT: 25.7617
+LNG: -80.1918
+NAME: Carla M. Dominguez
+FIRM: Dominguez Law
+PHONE: (305) 555-0111
+EMAIL: cdominguez@example.com
+ADDRESS: 200 S Biscayne Blvd, Suite 2700, Miami, FL 33131
+NOTE: Former Miami-Dade public defender. Bilingual (English / Spanish).
+---
+
+STATE: Illinois
+CITY: Chicago
+LAT: 41.8781
+LNG: -87.6298
+NAME: Robert J. Kane
+FIRM: Kane Defense
+PHONE: (312) 555-0166
+EMAIL: rkane@example.com
+WEBSITE: https://example.com
+ADDRESS: 53 W Jackson Blvd, Suite 1400, Chicago, IL 60604
+NOTE: Former Cook County public defender. Violent-crime defense.
+---
+
+STATE: Georgia
+CITY: Atlanta
+LAT: 33.7490
+LNG: -84.3880
+NAME: Tasha L. Pierce
+FIRM: Pierce Trial Group
+PHONE: (404) 555-0133
+EMAIL: tpierce@example.com
+ADDRESS: 191 Peachtree St NE, Suite 3300, Atlanta, GA 30303
+NOTE: Former public defender. Drug and weapons charges.
+---
+
+STATE: Washington
+CITY: Seattle
+LAT: 47.6062
+LNG: -122.3321
+NAME: Henry P. Walsh
+FIRM: Walsh Defense
+PHONE: (206) 555-0177
+EMAIL: hwalsh@example.com
+ADDRESS: 1201 3rd Ave, Suite 2200, Seattle, WA 98101
+NOTE: Former King County public defender. Appeals and post-conviction.

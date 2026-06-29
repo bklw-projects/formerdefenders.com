@@ -1,0 +1,35 @@
+{
+  "_comment": "EDIT THIS FILE to update the site in one place. No code changes needed. After editing, just commit and push.",
+
+  "SITENAME": "The Former Defenders Project",
+  "SITENAME_SHORT": "Former Defenders",
+  "SITEINITIALS": "FD",
+  "SITEURL": "https://formerdefenders.com",
+
+  "TAGLINE": "A nationwide network of former defense attorneys.",
+
+  "HERO_EYEBROW": "Nationwide criminal defense referrals",
+  "HERO_HEADING": "Find a former defender near you.",
+  "HERO_SUBTEXT": "Select your state on the map to see the attorneys we recommend, or choose a star to view a specific office.",
+
+  "ABOUT_HEADING": "About the project",
+  "ABOUT_BODY": "The Former Defenders Project is a referral initiative connecting people who need criminal defense counsel with experienced attorneys across the country. Every attorney listed has spent part of their career as a public defender or court-appointed counsel, defending the accused day in and day out. We maintain this map so you can find vetted, trial-tested representation in your state quickly and without guesswork.",
+
+  "NAV_LINKS": [
+    { "label": "About", "href": "#about" }
+  ],
+
+  "CONTACT": {
+    "FIRM": "The Former Defenders Project",
+    "PHONE": "(800) 555-0100",
+    "EMAIL": "intake@formerdefenders.com",
+    "ADDRESS": "100 Liberty Plaza, Suite 1500, Austin, TX 78701",
+    "HOURS": "Monday–Friday, 8:00 AM – 6:00 PM CT"
+  },
+
+  "FOOTER_DISCLAIMER": "This website is a project of the sponsoring law firm and is intended for informational purposes only. The attorneys shown are recommendations and not a referral, guarantee, or endorsement of any particular outcome. Contacting an attorney through this site does not create an attorney-client relationship. Prior results do not guarantee a similar outcome.",
+
+  "FOOTER_LINKS": [
+    { "label": "About", "href": "#about" }
+  ]
+}
